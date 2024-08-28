@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+main {
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: #e95580;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+nav a:hover {
+    background-color: mediumpurple;
+}
+
+section {
+    width: 1366px;
+    height: 1500px;
+    background-image: url(../Imagenes/Nana\ wall.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section .personaje {
+    width: 1300px;
+    height: 350px;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+}
+
+.personaje .foto {
+    width: 400px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom: #e95580 4px solid;
+}
+
+.foto img {
+    height: 100%;
+}
+
+.personaje .texto {
+    width: 800px;
+    height: 350px;
+    background-color: #c7525647;
+    float: left;
+    margin-left: 33px;
+    padding: 20px;
+}
+
+footer {
+    width: 1366px;
+    height: 250px;
+    background-color: #c75255;
+}
